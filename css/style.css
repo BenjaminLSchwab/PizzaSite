@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .bc-1{
     background-color: #ED2121;
 }
@@ -36,4 +40,17 @@
 
 .tc-5{
     color: #FDE74C;
+}
+
+.pz-pic{
+    display: inline;
+    width: 90%;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.pizzaProgress{
+    height: 1000%;
 }
