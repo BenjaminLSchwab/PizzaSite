@@ -51,6 +51,16 @@ body{
     border-radius: 10px;
 }
 
-.pizzaProgress{
-    height: 1000%;
+.progress{
+    height: 30px;
+}
+
+#pizza-progress{
+
+}
+
+.cheesy{
+    border-style: solid;
+    border-color: #FDE74C;
+    border-width: 3px;
 }

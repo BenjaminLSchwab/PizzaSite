@@ -17,7 +17,7 @@
     <div class="container">
 
     <!--  Title Bar      -->
-        <div class="jumbotron jumbotron-fluid bc-4 rounded">
+        <div class="jumbotron jumbotron-fluid bc-4 rounded cheesy">
             <div class="container text-center">
                 <div class="row">
                 <div class="col-1"><img src="img/pizza.png" alt="pizza" class="pz-pic"></div>
@@ -36,14 +36,50 @@
     <!--  /Title Bar      -->
         
     <!--  Base Pizza      -->
-        <div class="collapse container-fluid bc-4 rounded" id="collapse-1">
-        <!--  Size      -->
-            
-        <!--  /Size      -->
-        bleh
-        <!--  Crust      -->
-            
-        <!--  /Crust      -->
+        <div class="collapse container-fluid bc-4 rounded cheesy text-center" id="collapse-1">
+            <h2 class="my-1 tc-3">Base Pie</h2>
+            <div class="card-group px-3">
+                <div class="card bc-3">
+                    <img class="card-img-top" src="img/rad.png" alt="pizza radius">
+                    <div class="card-body bc-4">
+                        <h5 class="card-title">Size</h5>
+                        
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                            <input type="radio" name="options" id="size-sm" autocomplete="off" checked> Personal
+                            </label>
+                            <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="size-md" autocomplete="off"> Medium
+                            </label>
+                            <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="size-lg" autocomplete="off"> Large
+                            </label>
+                            <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="size-xl" autocomplete="off"> Extra-Large
+                            </label>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="card bc-3">
+                    <img class="card-img-top" src="img/crust.jpg" alt="cheesy crust">
+                    <div class="card-body bc-4">
+                        <h5 class="card-title">Crust</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row my-1 justify-content-center">
+                <div class="col-3">
+                    <button type="button" class="btn btn-secondary btn-lg" disabled>Back</button>
+                </div>
+                <div class="col-4-auto"></div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-secondary btn-lg">Next</button>
+                </div>
+            </div>
         </div>
     <!--  /Base Pizza      -->
         
