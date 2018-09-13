@@ -7,7 +7,7 @@ body{
 }
 
 .bc-2{
-    background-color: #0A0908;
+    background-color: #403F4C;
 }
 
 .bc-3{
@@ -27,7 +27,7 @@ body{
 }
 
 .tc-2{
-    color: #0A0908;
+    color: #403F4C;
 }
 
 .tc-3{
@@ -44,11 +44,16 @@ body{
 
 .pz-pic{
     display: inline;
-    width: 90%;
+    width: 100%;
 }
 
 .rounded{
     border-radius: 10px;
+}
+
+.top-rounded{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .progress{
@@ -64,3 +69,18 @@ body{
     border-color: #FDE74C;
     border-width: 3px;
 }
+
+.btn-choice{
+    background-color: #5BC0EB;
+}
+
+.btn-choice:not(:disabled):not(.disabled):active, .btn-choice:not(:disabled):not(.disabled).active{
+    background-color: #403F4C;
+    color: #FFFCE8;
+}
+
+.unit-price{
+    font-size: 18px;
+    height: 70%;
+}
+
