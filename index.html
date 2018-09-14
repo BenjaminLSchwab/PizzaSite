@@ -42,18 +42,18 @@
                         
                         <div class="row justify-content-center">
                             <div class="col-auto my-1">
-                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons" onchange="SizeTotal()">
                                     <label class="btn btn-choice">
-                                    <input type="radio" name="options" id="size-sm" autocomplete="off"> Personal
+                                    <input type="radio" name="options" id="size-sm"> Personal
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="radio" name="options" id="size-md" autocomplete="off"> Medium
+                                    <input type="radio" name="options" id="size-md"> Medium
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="radio" name="options" id="size-lg" autocomplete="off"> Large
+                                    <input type="radio" name="options" id="size-lg"> Large
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="radio" name="options" id="size-xl" autocomplete="off"> Extra-Large
+                                    <input type="radio" name="options" id="size-xl"> Extra-Large
                                     </label>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                 </div>
                                 <div  class="row unit-price">
                                     <div class="col-12 align-self-center" id="size-price">
-                                        $1.00
+                                        $0.00
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
 
                         <div class="row justify-content-around">
                             <div class="col-auto my-1">
-                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons" onchange="CrustTotal()">
                                     <label class="btn btn-choice">
                                     <input type="radio" name="options" id="crust-plain" autocomplete="off"> Plain
                                     </label>
@@ -105,7 +105,7 @@
                                 </div>
                                 <div  class="row unit-price">
                                     <div class="col-12 align-self-center" id="crust-price">
-                                        $1.00
+                                        $0.00
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@
                         
                         <div class="row justify-content-center">
                             <div class="col-auto my-1">
-                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons" onchange="CheeseTotal()">
                                     <label class="btn btn-choice">
                                     <input type="radio" name="options" id="cheese-reg" autocomplete="off"> Normal
                                     </label>
@@ -146,7 +146,7 @@
                                 </div>
                                 <div  class="row unit-price">
                                     <div class="col-12 align-self-center" id="cheese-price">
-                                        $1.00
+                                        $0.00
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@
 
                         <div class="row justify-content-center">
                             <div class="col-auto my-1">
-                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons" onchange="SauceType()">
                                     <label class="btn btn-choice">
                                     <input type="radio" name="options" id="sauce-marinara" autocomplete="off"> Marinara
                                     </label>
@@ -185,7 +185,7 @@
                                 </div>
                                 <div  class="row unit-price">
                                     <div class="col-12 align-self-center" id="sauce-price">
-                                        $1.00
+                                        $0.00
                                     </div>
                                 </div>
                             </div>
@@ -208,24 +208,24 @@
                         
                         <div class="row justify-content-center">
                             <div class="col-auto my-1">
-                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons" onchange="MeatTotal()">
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="meat-pep" autocomplete="off"> Peperoni
+                                    <input type="checkbox" name="options" class="meat" autocomplete="off"> Peperoni
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="meat-sausage" autocomplete="off"> Sausage
+                                    <input type="checkbox" name="options" class="meat" autocomplete="off"> Sausage
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="meat-cb" autocomplete="off"> Canadian Bacon
+                                    <input type="checkbox" name="options" class="meat" autocomplete="off"> Canadian Bacon
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="meat-gb" autocomplete="off"> Ground Beef
+                                    <input type="checkbox" name="options" class="meat" autocomplete="off"> Ground Beef
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="meat-anchovies" autocomplete="off"> Anchovies
+                                    <input type="checkbox" name="options" class="meat" autocomplete="off"> Anchovies
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="meat-chicken" autocomplete="off"> Chicken
+                                    <input type="checkbox" name="options" class="meat" autocomplete="off"> Chicken
                                     </label>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@
                                 </div>
                                 <div  class="row unit-price">
                                     <div class="col-12 align-self-center" id="meat-price">
-                                        $1.00
+                                        $0.00
                                     </div>
                                 </div>
                             </div>
@@ -253,30 +253,30 @@
 
                         <div class="row justify-content-center">
                             <div class="col-auto my-1">
-                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons" onchange="VegTotal()">
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-tomatoes" autocomplete="off" > Tomatoes
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off" > Tomatoes
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-onions" autocomplete="off"> Onions
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off"> Onions
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-olives" autocomplete="off"> Olives
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off"> Olives
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-gp" autocomplete="off"> Green Peppers
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off"> Green Peppers
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-mushrooms" autocomplete="off" > Mushrooms
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off" > Mushrooms
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-pineapple" autocomplete="off"> Pineapple
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off"> Pineapple
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-spinach" autocomplete="off"> Spinach
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off"> Spinach
                                     </label>
                                     <label class="btn btn-choice">
-                                    <input type="checkbox" name="options" id="veg-jal" autocomplete="off"> Jalapenos
+                                    <input type="checkbox" name="options" class="veggie" autocomplete="off"> Jalapenos
                                     </label>
 
                                 </div>
@@ -287,7 +287,7 @@
                                 </div>
                                 <div  class="row unit-price">
                                     <div class="col-12 align-self-center" id="veg-price">
-                                        $1.00
+                                        $0.00
                                     </div>
                                 </div>
                             </div>
@@ -300,6 +300,27 @@
     <!--  /Toppings      -->
         
         <button class="btn btn-lg btn-choice" onclick="Total()">Order</button>
+        
+    <!-- Unfinished Pizza Modal -->
+    <div class="modal fade" id="unfinished-pizza" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bc-1 tc-4">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Unfinished Business</h5>
+                    <button type="button" class="close btn-choice" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Finish making your pizza first!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-choice" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Unfinished Pizza Modal -->
         
     <!-- Total -->
         <div class="collapse container-fluid bc-4 rounded cheesy text-center my-1">
@@ -315,17 +336,22 @@
                 <tbody>
                     <tr>
                         <th scope="row">Size</th>
-                        <td>Personal</td>
-                        <td>$0.00</td>
+                        <td id="size-label">Personal</td>
+                        <td id="size-total">$0.00</td>
                     </tr>
                     <tr>
                         <th scope="row">Crust</th>
-                        <td>Normal</td>
-                        <td>$0.00</td>
+                        <td id="crust-label">Normal</td>
+                        <td id="crust-total">$0.00</td>
                     </tr>
                     <tr>
                         <th scope="row">Cheese</th>
-                        <td>Normal</td>
+                        <td id="cheese-label">Normal</td>
+                        <td id="cheese-total">$0.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sauce</th>
+                        <td id="sauce-label">Marinara</td>
                         <td>$0.00</td>
                     </tr>
                 </tbody>
@@ -335,65 +361,20 @@
                 <thead>
                     <tr>
                         <th scope="col">Item</th>
+                        <th scope="col">Number</th>
                         <th scope="col">Price</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr id="total-pepperoni">
-                        <th scope="row">Pepperoni</th>
-                        <td>$0.00</td>
+                        <th scope="row">Meats</th>
+                        <td id="meat-count">0</td>
+                        <td id="meat-total">$0.00</td>
                     </tr>
                     <tr id="total-sausage">
-                        <th scope="row">Sausage</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-cb">
-                        <th scope="row">Canadian Bacon</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-gb">
-                        <th scope="row">Ground Beef</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-anchovy">
-                        <th scope="row">Anchovy</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-chicken">
-                        <th scope="row">Chicken</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-tomatoes">
-                        <th scope="row">Tomatoes</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-onions">
-                        <th scope="row">Onions</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-olives">
-                        <th scope="row">Olives</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-gp">
-                        <th scope="row">Green Peppers</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-mushrooms">
-                        <th scope="row">Mushrooms</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-pineapple">
-                        <th scope="row">Pineapple</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-spinach">
-                        <th scope="row">Spinach</th>
-                        <td>$0.00</td>
-                    </tr>
-                    <tr id="total-jalapeno">
-                        <th scope="row">Jalapeno</th>
-                        <td>$0.00</td>
+                        <th scope="row">Veggies</th>
+                        <td id="veggie-count">0</td>
+                        <td id="veggie-total">$0.00</td>
                     </tr>
                 </tbody>
             </table>
@@ -411,26 +392,153 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
-        function Total(){
-            //get size total
-            if($('#size-sm:checked').length == 1){
-                console.log("if working");
-                $('#grand-total').innerHTML = "test";
-               }
-            
-            
-            //get crust total
-            
-            //get cheese total
-            
-            //get meat total
-            
-            //get veg total
+        var sizePrice = 0;
+        var sizeLabel = "Not Specified";
+        var crustPrice = 0;
+        var crustLabel = "Not Specified";
+        var cheesePrice = 0;
+        var cheeseLabel = "Not Specified";
+        var sauceLabel = "Not Specified";
+        var meatPrice = 0;
+        var meatCount = 0;
+        var vegPrice = 0;
+        var vegCount = 0;
+        
+        function Total() {
+            //check if pizza finished
+            if (sizeLabel == "Not Specified" || crustLabel == "Not Specified" || cheeseLabel == "Not Specified" || sauceLabel == "Not Specified"){
+                $('#unfinished-pizza').modal('show');
+                return;
+            }
             
             //assign values to total form
+            document.getElementById("size-label").innerHTML = sizeLabel;
+            document.getElementById("size-total").innerHTML = "$" + sizePrice.toString() + ".00";
             
+            document.getElementById("crust-label").innerHTML = crustLabel;
+            document.getElementById("crust-total").innerHTML = "$" + crustPrice.toString() + ".00";
+            
+            document.getElementById("cheese-label").innerHTML = cheeseLabel;
+            document.getElementById("cheese-total").innerHTML = "$" + cheesePrice.toString() + ".00";
+            
+            document.getElementById("sauce-label").innerHTML = sauceLabel;
+            
+            document.getElementById("meat-count").innerHTML = meatCount; 
+            document.getElementById("meat-total").innerHTML = "$" + meatPrice.toString() + ".00";
+            
+            document.getElementById("veggie-count").innerHTML = vegCount;
+            document.getElementById("veggie-total").innerHTML = "$" + vegPrice.toString() + ".00";
+            
+            var grandTotal = sizePrice + crustPrice + cheesePrice + meatPrice + vegPrice;
+            document.getElementById('grand-total').innerHTML = "$" + grandTotal.toString() + ".00";
             
             $('.collapse').collapse();
+        }
+        
+        function SizeTotal() {
+            sizePrice = 0;
+            if($('#size-sm:checked').length == 1) {
+                document.getElementById("size-price").innerHTML = "$6.00"
+                sizePrice = 6;
+                sizeLabel = "Personal";
+            }else if($('#size-md:checked').length == 1) {
+                document.getElementById("size-price").innerHTML = "$10.00"
+                sizePrice = 10
+                sizeLabel = "Medium";
+            }else if($('#size-lg:checked').length == 1) {
+                document.getElementById("size-price").innerHTML = "$14.00"
+                sizePrice = 14
+                sizeLabel = "Large";
+            }else if($('#size-xl:checked').length == 1) {
+                document.getElementById("size-price").innerHTML = "$16.00"
+                sizePrice = 16
+                sizeLabel = "Extra-Large";
+            }
+        }
+        
+        function CrustTotal(){
+            crustPrice = 0;
+            if($('#crust-cheesy:checked').length == 1) {
+                document.getElementById("crust-price").innerHTML = "$3.00";
+                crustPrice = 3;
+                crustLabel = "Cheesy";
+                return;
+            }
+            else if($('#crust-plain:checked').length == 1){
+                crustLabel = "Plain";
+            }
+            else if($('#crust-garlic:checked').length == 1){
+                crustLabel = "Garlic";
+            }
+            else if($('#crust-spicy:checked').length == 1){
+                crustLabel = "Spicy";
+            }
+            else if($('#crust-house:checked').length == 1){
+                crustLabel = "House-Special";
+            }
+            document.getElementById("crust-price").innerHTML = "$0.00";
+            crustPrice = 0;
+        }
+        
+        function CheeseTotal(){
+            cheesePrice = 0;
+            if($('#cheese-ex:checked').length == 1) {
+                document.getElementById("cheese-price").innerHTML = "$3.00";
+                cheesePrice = 3;
+                cheeseLabel = "Extra Cheese";
+                return;
+            }
+            else if($('#cheese-no:checked').length == 1){
+                cheeseLabel = "No Cheese";
+            }
+            else if($('#cheese-reg:checked').length == 1){
+                cheeseLabel = "Normal Cheese";
+            }
+            
+            document.getElementById("cheese-price").innerHTML = "$0.00";
+            cheesePrice = 0;
+    
+        }
+        
+        function MeatTotal(){
+            meatPrice = 0;
+            meatCount = $('.meat:checked').length;
+            if($('.meat:checked').length <= 1){
+                meatPrice = 0;
+                document.getElementById("meat-price").innerHTML = "$0.00";
+            }
+            else{
+                meatPrice = $('.meat:checked').length - 1;
+                document.getElementById("meat-price").innerHTML = "$" + meatPrice.toString() + ".00";
+            }
+        }
+        
+        function VegTotal(){
+            vegPrice = 0;
+            vegCount = $('.veggie:checked').length;
+            if($('.veggie:checked').length <= 1){
+                vegPrice = 0;
+                document.getElementById("veg-price").innerHTML = "$0.00";
+            }
+            else{
+                vegPrice = $('.veggie:checked').length - 1;
+                document.getElementById("veg-price").innerHTML = "$" + vegPrice.toString() + ".00";
+            }
+        }
+        
+        function SauceType(){
+            if($('#sauce-marinara:checked').length == 1){
+                sauceLabel = "Marinara";
+            }
+            else if($('#sauce-white:checked').length == 1){
+                sauceLabel = "White Sauce";
+            }
+            else if($('#sauce-bbq:checked').length == 1){
+                sauceLabel = "BBQ Sauce";
+            }
+            else if($('#sauce-no:checked').length == 1){
+                sauceLabel = "No Sauce";
+            }
         }
                 
     </script>

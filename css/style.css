@@ -74,6 +74,7 @@ body{
     background-color: #5BC0EB;
 }
 
+
 .btn-choice:not(:disabled):not(.disabled):active, .btn-choice:not(:disabled):not(.disabled).active{
     background-color: #403F4C;
     color: #FFFCE8;
